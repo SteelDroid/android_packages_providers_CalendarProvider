@@ -15,8 +15,8 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.android.providers.calendar"
-        android:sharedUserId="android.uid.calendar">
+    package="com.android.providers.calendar"
+    android:sharedUserId="android.uid.calendar">
 
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
@@ -95,7 +95,7 @@
                 booting, before the home app is launched or BOOT_COMPLETED
                 is sent. -->
            <intent-filter>
-               <action android:name="android.intent.action.PRE_BOOT_COMPLETED"/>
+               <action android:name="android.intent.action.PRE_BOOT_COMPLETED" />
            </intent-filter>
        </receiver>
 
